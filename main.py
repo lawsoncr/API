@@ -7,7 +7,7 @@ url = "https://reddit-meme.p.rapidapi.com/memes/trending"
 
 headers = {
     'x-rapidapi-host': "reddit-meme.p.rapidapi.com",
-    'x-rapidapi-key': "84a8eeab97mshd52f4f6edf81a07p1ce7fbjsn40548363d4e1"
+    'x-rapidapi-key': "insert api key"
     }
 
 response = requests.request("GET", url, headers=headers)
